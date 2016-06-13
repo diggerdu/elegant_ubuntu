@@ -39,4 +39,6 @@ cp background.jpg ~/Pictures/Wallpapers/
 gsettings set org.gnome.desktop.background picture-uri "file://${HOME}/Pictures/Wallpapers/background.jpg"
 gsettings set com.canonical.unity-greeter background '${HOME}/Pictures/Wallpapers/background.jpg'
 
-
+#install powerline
+pip install powerline-status
+echo "refer to http://www.tecmint.com/powerline-adds-powerful-statuslines-and-prompts-to-vim-and-bash/"
