@@ -1,2 +1,2 @@
-sudo apt-get purge gnome-contacts gedit gnome-calculator webbrowser-app brasero unity-scope-gdrive gnome-orca gnome-sudoku checkbox-gui totem xdiagnose
+sudo apt-get purge gnome-contacts gedit gnome-calculator webbrowser-app brasero unity-scope-gdrive gnome-orca gnome-sudoku checkbox-gui totem xdiagnose firefox
 
