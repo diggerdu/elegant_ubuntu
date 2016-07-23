@@ -32,13 +32,25 @@ touch ~/.Xresources
 echo "Xcursor.theme: Breeze" | cat >> ~/.Xresources
 echo "Xcursor.size: 24" | cat >> ~/.Xresources 
 
-#chang background
+#change background
 mkdir ~/Pictures
 mkdir ~/Pictures/Wallpapers
 cp background.jpg ~/Pictures/Wallpapers/
 gsettings set org.gnome.desktop.background picture-uri "file://${HOME}/Pictures/Wallpapers/background.jpg"
 gsettings set com.canonical.unity-greeter background '${HOME}/Pictures/Wallpapers/background.jpg'
 
+#install Anaconda
+echo "Download Anaconda"
+
+#install sougou input method and Chrome
+echo "Download Sougou and Chrome install package"
+dpkg -i sogou*
+dpkg -i chrome*
+apt -f install
+dpkg -i sogou* 
+dpkg -i chrome*
+im-config
+fcitx-config-gtk3
 #install powerline
 pip install powerline-status
 echo "refer to http://www.tecmint.com/powerline-adds-powerful-statuslines-and-prompts-to-vim-and-bash/"
