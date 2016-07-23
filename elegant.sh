@@ -19,8 +19,8 @@ sudo apt-get install flatabulous-theme
 #install font
 FONT_DIR=/usr/share/fonts/truetype/custom/
 sudo mkdir -p $FONT_DIR
-sudo mv MONACO.TTF $FONT_DIR
-sudo mv LiHei.ttf $FONT_DIR
+sudo cp MONACO.TTF $FONT_DIR
+sudo cp LiHei.ttf $FONT_DIR
 sudo fc-cache -f -v
 
 #install cursor theme
