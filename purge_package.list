@@ -1,2 +1,3 @@
 sudo apt-get purge gnome-contacts gedit gnome-calculator webbrowser-app brasero unity-scope-gdrive gnome-orca gnome-sudoku checkbox-gui totem xdiagnose firefox gnome-mahjongg rhythmbox baobab empathy
+sudo dpkg --purge `dpkg --get-selections | grep deinstall | cut -f1`
 
