@@ -1,19 +1,22 @@
-#install notepadqq
+# add the PPA
+sudo add-apt-repository -y ppa:nixnote/nixnote2-daily
+sudo add-apt-repository ppa:noobslab/themes
+sudo add-apt-repository ppa:noobslab/icons
 sudo add-apt-repository ppa:notepadqq-team/notepadqq
 sudo apt-get update
+# install nixnote2
+sudo apt-get install nixnote2
+
+#install notepadqq
 sudo apt-get install notepadqq
 
 #install tuning tool
 sudo apt-get install unity-tweak-tool
 
 #install icon
-sudo add-apt-repository ppa:noobslab/icons
-sudo apt-get update
 sudo apt-get install ultra-flat-icons
 
 #install theme
-sudo add-apt-repository ppa:noobslab/themes
-sudo apt-get update
 sudo apt-get install flatabulous-theme
 
 #install font
@@ -28,9 +31,9 @@ tar -xf Breeze.tgz
 mv Breeze ~/.icons/
 gsettings set org.gnome.desktop.interface cursor-theme Breeze
 gsettings set org.gnome.desktop.interface cursor-size 24
-touch ~/.Xresources 
-echo "Xcursor.theme: Breeze" | cat >> ~/.Xresources
-echo "Xcursor.size: 24" | cat >> ~/.Xresources 
+sudo touch ~/.Xresources 
+sudo echo "Xcursor.theme: Breeze" | sudo cat - ~/.Xresources
+sudo echo "Xcursor.size: 24" | sudo cat - ~/.Xresources 
 
 #change background
 mkdir ~/Pictures
