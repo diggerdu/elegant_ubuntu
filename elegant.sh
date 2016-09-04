@@ -4,6 +4,8 @@ sudo add-apt-repository ppa:noobslab/themes
 sudo add-apt-repository ppa:noobslab/icons
 sudo add-apt-repository ppa:notepadqq-team/notepadqq
 sudo apt-get update
+# install tmux
+sudo apt install tmux
 # install nixnote2
 sudo apt-get install nixnote2
 
