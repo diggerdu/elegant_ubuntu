@@ -60,3 +60,5 @@ fcitx-config-gtk3
 pip install powerline-status
 echo "refer to http://www.tecmint.com/powerline-adds-powerful-statuslines-and-prompts-to-vim-and-bash/"
 echo "refer to tmux-powerline"
+
+sudo apt install proxychains
