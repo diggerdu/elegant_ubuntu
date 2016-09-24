@@ -62,3 +62,5 @@ echo "refer to http://www.tecmint.com/powerline-adds-powerful-statuslines-and-pr
 echo "refer to tmux-powerline"
 
 sudo apt install proxychains
+#disable annoying autoplay
+gsettings set org.gnome.desktop.media-handling automount-open false
