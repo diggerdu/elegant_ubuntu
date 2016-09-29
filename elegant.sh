@@ -1,5 +1,4 @@
 # add the PPA
-sudo add-apt-repository -y ppa:nixnote/nixnote2-daily
 sudo add-apt-repository ppa:noobslab/themes
 sudo add-apt-repository ppa:noobslab/icons
 sudo add-apt-repository ppa:notepadqq-team/notepadqq
@@ -10,10 +9,6 @@ sudo apt install tmux
 sudo apt-get install nixnote2
 
 #install notepadqq
-sudo apt-get install notepadqq
-
-#install tuning tool
-sudo apt-get install unity-tweak-tool
 
 #install icon
 sudo apt-get install ultra-flat-icons
@@ -62,3 +57,8 @@ echo "refer to http://www.tecmint.com/powerline-adds-powerful-statuslines-and-pr
 echo "refer to tmux-powerline"
 
 sudo apt install proxychains
+sudo apt install goldendict
+
+
+#set default view of nautilus ot "list view"
+gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
