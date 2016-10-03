@@ -62,3 +62,10 @@ sudo apt install goldendict
 
 #set default view of nautilus ot "list view"
 gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
+
+
+#install zsh
+apt-get install zsh
+apt-get install git-core
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+chsh -s `which zsh`
