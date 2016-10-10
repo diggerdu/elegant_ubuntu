@@ -62,3 +62,8 @@ sudo apt install goldendict
 
 #set default view of nautilus ot "list view"
 gsettings set org.gnome.nautilus.preferences default-folder-viewer 'list-view'
+
+
+#rsync alias
+echo alias rsync='rsync=rsync --info=progress2' >> ~/.zshrc
+source ~/.zshrc
